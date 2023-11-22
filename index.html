@@ -124,6 +124,39 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, temporibus.
             </small>
         </div>
+        <div id="contact-form">
+            <h3>Susisiekite su mumis</h3>
+            <form action="/submit-form" method="post">
+                <div>
+                    <label for="name">Vardas:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+    
+                <div>
+                    <label for="email">El. paštas:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div>
+                    <label for="phone">Tel. numeris:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div>
+                    <label for="message">Žinutė:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+    
+                <div>
+                    <label for="privacy-checkbox">
+                        <input type="checkbox" id="privacy-checkbox" name="privacy-checkbox" required>
+                        Sutinku su privatumo taisyklėmis
+                    </label>
+                </div>
+    
+                <button type="submit">Siųsti</button>
+            </form>
+        </div>
     </footer>
 </body>
 </html>
